@@ -1,0 +1,41 @@
+h3 {
+    text-align: center;
+}
+input[type="text"] {
+    padding: 15px; 
+    width: 460px;
+    font-size: 16px;
+}
+#divContainer {
+    margin: 0px auto;
+    width: 860px;
+}
+#divInput, #divResults {
+    margin: 5px;
+    padding: 5px;
+}
+#divResults{height:15px;}
+
+#divSidebar span {
+    font-size:12px;
+    padding: 5px;
+    display: block;
+    border-bottom: solid 1px #e7e4e4;
+    cursor:pointer;
+}
+#divSidebar {
+    width:265px;
+    float: left;    
+}
+#divMain {
+     margin-left:300px;
+}
+#divSidebar, #divMain {
+    border: solid 1px #e7e4e4;
+    display: table-cell;
+    padding: 10px;
+    height: 330px;
+}
+#divHelp {
+    font-size:12px;
+}
