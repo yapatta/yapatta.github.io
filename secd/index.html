@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SECD Virtual Machine in TypeScript</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="divContainer">
+      <h3>An implementation of SECD machine in TypeScript</h3>
+      <div id="divSidebar">
+        <h4>Examples:</h4>
+        <span>app:[{func:{arg:'x',body:'x'}},{var:{name:'a',val:3}}]</span>
+        <span
+          >app:[{app:[{func:{arg:'x',body:{func:{arg:'y',body:'x'}}}},{var:{name:'a',val:1}}]},{var:{name:'b',val:4}}]</span
+        >
+        <span
+          >app:[{app:[{func:{arg:'x',body:{func:{arg:'y',body:'y'}}}},{var:{name:'a',val:4}}]},{var:{name:'b',val:5}}]</span
+        >
+        <span
+          >app:[{func:{arg:'y',body:'y'}},{app:[{func:{arg:'x',body:'x'}},{var:{name:'a',val:3}}]}]</span
+        >
+      </div>
+      <div id="divMain">
+        <h4>Input:</h4>
+        <div id="divInput">
+          <input
+            type="text"
+            id="txtInput"
+            placeholder="Enter a lambda expression here and hit return..."
+            value=""
+            autofocus="true"
+          />
+        </div>
+        <h4>Result:</h4>
+        <div id="divResults"></div>
+        <h4>Note:</h4>
+        <div id="divHelp">
+          <ul>
+            <li>
+              Click on the examples on the left to automatically enter the
+              corresponding lambda expression.
+            </li>
+            <li>
+              Open Browser console (hit F12 key) to see the contents of Stack,
+              Environment, Control and Dump.
+            </li>
+          </ul>
+        </div>
+        <div></div>
+      </div>
+    </div>
+    <script src="secd.js"></script>
+  </body>
+</html>
