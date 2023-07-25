@@ -1,82 +1,136 @@
 <!DOCTYPE html>
-<html lang="ja">
-<head>
-	<meta charset="utf-8"></meta>
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-	<title>やぱたの自己紹介</title>
-</head>
-<body>
-	<div class="mainarea">
-		<h1 class="profile">やぱたのprofile</h1>
-		<table class="detail">
-			<body>
-				<tr>
-					<td>名前</td>
-					<td>やぱた</td>
-				</tr>
-				<tr>
-					<td>所属</td>
-					<td>慶應義塾大学大学院情報工学専修</td>
-				</tr>
-				<tr>
-					<td>好きなもの</td>
-					<td>
-						<table class="link">
-							<body>
-								<tr>
-									<td>ラーメン</td>
-								</tr>
-								<tr>
-									<td>剣道</td>
-								</tr>
-								<tr>
-									<td>ベース</td>
-								</tr>
-								<tr>
-									<td>ボカロ</td>
-								</tr>
-								<tr>
-									<td>ゴンベ</td>
-								</tr>
-							</body>
-						</table>
-					</td>
-				</tr>
-				<tr>
-					<td>リンク</td>
-					<td>
-						<table class="link">
-							<body>
-								<tr>
-									<td>Twitter</td>
-									<td><a href="https://twitter.com/yapatta_prog">yapatta_prog</a></td>
-								</tr>
-								<tr>
-									<td>GitHub</td>
-									<td><a href="https://github.com/yapatta">yapatta</a></td>
-								</tr>
-								<tr>
-									<td>AtCoder</td>
-									<td><a href="https://atcoder.jp/users/ziroppe">yapatta</a></td>
-								</tr>
-								<tr>
-									<td>Zenn</td>
-									<td><a href="https://zenn.dev/uu">yapatta</a></td>
-								</tr>
-								<tr>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Yujiro Yahata / 八幡 悠二郎</title>
+        <meta name="description" content="Yujiro Yahata / 八幡 悠二郎">
 
-									<td>ブログ</td>
-									<td><a href="https://yapatta.hatenablog.com">yapatta</a></td>
-								</tr>
-								<tr>
-									<td>YouTube</td>
-									<td><a href="https://www.youtube.com/channel/UCMKlaozg7j0sKjYQhsacuoQ">やぱた投稿</a></td>
-								</tr>
-							</body>
-						</table>
-					</td>
-				</tr>
-			</body>
-		</table>
-	</div>
-</body>
+        <style type="text/css">
+            :root {
+                --nc-font-sans: 'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+                --nc-bg-1: #ffffff;
+                --nc-bg-2: #eeeeee;
+                --nc-tx-1: #000000;
+                --nc-tx-2: #111111;
+                --nc-tx-3: #222222;
+                --nc-lk-1: #3291FF;
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            p,ul,h1 {
+                margin-bottom: 1rem;
+            }
+
+            html {
+                font-family: var(--nc-font-sans)
+            }
+
+            body {
+                margin: 0 auto;
+                max-width: 750px;
+                padding: 1rem;
+                border-radius: 6px;
+                overflow-x: hidden;
+                word-break: break-word;
+                overflow-wrap: break-word;
+                background: var(--nc-bg-1);
+                color: var(--nc-tx-1);
+                font-size: 1.03rem;
+                line-height: 1.5;
+            }
+
+            a {
+                color: var(--nc-lk-1)
+            }
+
+            hr {
+                border: 0;
+                border-bottom: 1px solid var(--nc-tx-2);
+                margin: 1rem auto
+            }
+
+            ul {
+                padding-left: 2rem
+            }
+
+            li {
+                margin-top: .4rem
+            }
+
+            img {
+                max-width: 100%
+            }
+        </style>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+        <meta property="og:title" content="Yujiro Yahata / 八幡 悠二郎">
+        <meta property="og:description" content="Portfolio website">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://yapatta.net">
+        <meta property="og:image" content="assets/icon.jpeg">
+        <meta property="og:site_name" content="Yujiro Yahata / 八幡 悠二郎">
+    </head>
+    <body>
+        <div style="display: flex; justify-content: center;">
+            <picture style="margin-top: 5%;">
+                <source srcset="assets/icon.jpeg" type="image/jpg">
+                <img src="assets/icon.jpeg" alt="icon" style="border-radius: 50%; width: 300px; height: 300px;">
+            </picture>
+        </div>
+        <div style="display: flex; justify-content: center;">
+			<h1>
+				<strong>Yujiro Yahata</strong>
+			</h1>
+		</div>
+        <div style="display: flex; justify-content: center; gap: 0px 12px;">
+            <a href="https://github.com/yapatta" target="_blank">
+                <img height="30" width="30" src="assets/github.svg" alt="github"/>
+            </a>
+            <a href="https://zenn.dev/uu" target="_blank">
+                <img height="30" width="30" src="assets/zenn.svg" alt="zenn"/>
+            </a>
+			<a href="https://yapatta.hatenablog.com" target="_blank">
+                <img height="30" width="30" src="assets/hatena.svg" alt="hatenablog"/>
+            </a>
+            <!--<a href="https://open.spotify.com/user/3132tffpqdp34ndtzwwtu4zpb6ie" target="_blank">
+                <img height="30" width="30" src="assets/spotify.svg" alt="spotify"/>
+			</a>-->
+			<a href="https://www.youtube.com/channel/UCMKlaozg7j0sKjYQhsacuoQ" target="_blank">
+                <img height="30" width="30" src="assets/youtube.svg" alt="youtube"/>
+            </a>
+			<a href="https://atcoder.jp/users/yapatta" target="_blank">
+                <img height="30" width="30" src="assets/ac.svg" alt="atcoder"/>
+            </a>
+        </div>
+        <hr>
+		<p>I'm Yujiro Yahata, studying master of engineering in computer science at Keio University in Japan. I have keen eyes for implmenting well-designed and optimized software systems which I then bring to reality through my code.</p>
+
+        <p>My interests are below:
+        <ul>
+    		<li>
+                <strong>Software Engineering</strong>
+				: I'm interested in building robust, scalable, and efficient software systems which can be a good solution for business objectives. Currently, I'm focusing on the development between the backend and infrastructure. I'm happy when other colleagues use my system to make their work more efficient.
+            </li>
+			<li>
+				<strong>Cryptgraphy</strong>
+				: The process of putting mathematics into real-world systems is very interesting. Especially, I'm working on Secure Multi-party Computation (MPC) as a research topic, which enables parties to jointly compute a function over their inputs with keeping those inputs private. I see potential of MPC to be integrated into other systems like distributed machine learning.
+			</li>
+            <li>
+				<strong>Distributed System</strong>
+                : I not only burn with a keen curiosity in designing applications with distributed systems such as Kubernetes, LXD, and Consul, but my interest extends to distributed algorithms such Raft and Paxos. I'm also trying to leverage modern cloud technologies like AWS and Google Cloud for more efficient system management.
+            </li>
+        </ul>
+</p>
+<p>
+<p>You can also contact me by email at `yahata [at] arc.ics.keio.ac.jp`.</p>
+<div style="display: flex; justify-content: center; margin-top: 10%;">
+    <small>Site designed and developed with love by me, © 2023 Yujiro Yahata</small>
+</div>
+</body></html>
